@@ -6,7 +6,7 @@ const useClinics = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const API_URL = 'http://localhost:3000/clinics';
+  const API_URL = 'https://healthhub-backend-6w0u.onrender.com/clinics';
 
   useEffect(() => {
     const fetchClinics = async () => {
