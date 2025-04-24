@@ -8,6 +8,13 @@ const ClinicCard = ({ clinic }) => {
 
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+      {/* Clinic Image */}
+      <img 
+        src="https://media.istockphoto.com/id/1441946110/photo/global-healthcare-concept.webp?a=1&b=1&s=612x612&w=0&k=20&c=1XCuG_iWoSNsf--0BxoeCFMDfKximS7itd5bO6M9jP8=" 
+        alt="Clinic"
+        className="w-full h-48 object-cover"
+      />
+
       <div className="p-6">
         <h3 className="text-xl font-bold text-blue-800 mb-2">{clinic.name}</h3>
         <p className="text-gray-600 mb-1">{clinic.specialty}</p>
