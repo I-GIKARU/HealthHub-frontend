@@ -10,12 +10,6 @@ const EditClinic = () => {
   const { clinics, updateClinic } = useClinics();
   const [clinic, setClinic] = useState(null);
   const [newInsurance, setNewInsurance] = useState('');
-  const [newReview, setNewReview] = useState({
-    patientName: '',
-    comment: '',
-    rating: 0,
-    date: new Date().toISOString().split('T')[0]
-  });
 
   // Load clinic data
   useEffect(() => {
@@ -76,35 +70,6 @@ const EditClinic = () => {
       insuranceAccepted: prev.insuranceAccepted.filter(item => item !== insurance)
     }));
   };
-
-  // Reviews Management
-  const handleReviewChange = (e) => {
-    const { name, value } = e.target;
-    setNewReview(prev => ({ ...prev, [name]: value }));
-  };
-
-  const addNewReview = () => {
-    if (newReview.patientName && newReview.comment && newReview.rating > 0) {
-      setClinic(prev => ({
-        ...prev,
-        reviews: [...prev.reviews, { ...newReview, id: Date.now() }]
-      }));
-      setNewReview({
-        patientName: '',
-        comment: '',
-        rating: 0,
-        date: new Date().toISOString().split('T')[0]
-      });
-    }
-  };
-
-  const removeReview = (reviewId) => {
-    setClinic(prev => ({
-      ...prev,
-      reviews: prev.reviews.filter(review => review.id !== reviewId)
-    }));
-  };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
@@ -316,34 +281,6 @@ const EditClinic = () => {
             <FaPlus className="inline mr-1" /> Add Service
           </button>
         </div>
-
-        {/* Reviews */}
-        <div>
-          <h2 className="text-lg font-semibold mb-3">Patient Reviews</h2>
-          <div className="space-y-4 mb-4">
-            {clinic.reviews.map((review) => (
-              <div key={review.id} className="border-b border-gray-200 pb-4">
-                <div className="flex justify-between items-start">
-                  <div>
-                    <p className="font-medium">{review.patientName}</p>
-                    <p className="text-gray-600">{review.comment}</p>
-                    <p className="text-sm text-gray-500">Rating: {review.rating}/5 • {review.date}</p>
-                  </div>
-                  <button
-                    type="button"
-                    onClick={() => removeReview(review.id)}
-                    className="text-red-600 hover:text-red-800"
-                  >
-                    <FaTimes />
-                  </button>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          
-        </div>
-
         {/* Form Actions */}
         <div className="flex justify-end space-x-4">
           <button

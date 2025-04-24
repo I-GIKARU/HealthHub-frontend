@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaSearch, FaStar, FaClock, FaHeart } from 'react-icons/fa';
+import { FaSearch, FaStar, FaClock} from 'react-icons/fa';
 
 const Home = () => {
   return (

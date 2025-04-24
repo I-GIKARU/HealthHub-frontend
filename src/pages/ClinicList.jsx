@@ -55,7 +55,6 @@ const ClinicList = () => {
           <ClinicCard 
             key={clinic.id} 
             clinic={clinic} 
-            onClick={() => navigate(`/clinics/${clinic.id}`)}
           />
         ))}
       </div>

@@ -1,0 +1,669 @@
+{
+  "clinics": [
+    {
+      "id": "1",
+      "name": "Nairobi Heart Centre",
+      "specialty": "Cardiology",
+      "description": "Premium cardiac care in Westlands",
+      "insuranceAccepted": [
+        "SHIF",
+        "Jubilee",
+        "AAR",
+        "Britam"
+      ],
+      "contact": {
+        "phone": "0720123456",
+        "email": "info@nairobiheart.co.ke"
+      },
+      "address": {
+        "street": "Woodvale Grove, Westlands",
+        "city": "Nairobi"
+      },
+      "services": [
+        {
+          "name": "Cardiac Consultation",
+          "price": "KSh 4,000",
+          "duration": "30 min"
+        },
+        {
+          "name": "Echocardiogram",
+          "price": "KSh 12,000",
+          "duration": "45 min"
+        }
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "patientName": "James Mwangi",
+          "comment": "Excellent service",
+          "rating": 5,
+          "date": "2023-05-15"
+        },
+        {
+          "patientName": "Enim cupidatat ad pa",
+          "comment": "Ea voluptas culpa do",
+          "rating": 5,
+          "date": "2025-04-24",
+          "id": 1745478104351
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Kenyatta Dental Hospital",
+      "specialty": "Dentistry",
+      "description": "Public dental hospital in Nairobi CBD",
+      "insuranceAccepted": [
+        "SHIF"
+      ],
+      "contact": {
+        "phone": "0721123456",
+        "email": "info@kdh.go.ke"
+      },
+      "address": {
+        "street": "Hospital Road",
+        "city": "Nairobi"
+      },
+      "services": [
+        {
+          "name": "Tooth Extraction",
+          "price": "KSh 1,500",
+          "duration": "30 min"
+        },
+        {
+          "name": "Dental Cleaning",
+          "price": "KSh 2,000",
+          "duration": "45 min"
+        }
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "patientName": "Mary Wanjiku",
+          "comment": "Affordable service",
+          "rating": 4,
+          "date": "2023-06-20"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Aga Khan Hospital",
+      "specialty": "General Hospital",
+      "description": "Multi-specialty hospital in Nairobi",
+      "insuranceAccepted": [
+        "SHIF",
+        "Jubilee",
+        "AAR",
+        "CIC"
+      ],
+      "contact": {
+        "phone": "0733123456",
+        "email": "info@akhskenya.org"
+      },
+      "address": {
+        "street": "Third Parklands Avenue",
+        "city": "Nairobi"
+      },
+      "services": [
+        {
+          "name": "General Consultation",
+          "price": "KSh 3,500",
+          "duration": "30 min"
+        },
+        {
+          "name": "Laboratory Tests",
+          "price": "KSh 5,000",
+          "duration": "1 hour"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "4",
+      "name": "Coast General Hospital",
+      "specialty": "General Hospital",
+      "description": "Largest public hospital in Mombasa",
+      "insuranceAccepted": [
+        "SHIF"
+      ],
+      "contact": {
+        "phone": "0724123456",
+        "email": "info@coastgeneral.go.ke"
+      },
+      "address": {
+        "street": "Kisauni Road",
+        "city": "Mombasa"
+      },
+      "services": [
+        {
+          "name": "Maternity Services",
+          "price": "KSh 2,500",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Pediatric Consultation",
+          "price": "KSh 1,500",
+          "duration": "30 min"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "5",
+      "name": "Eldoret Medicare Centre",
+      "specialty": "General Practice",
+      "description": "Private hospital in Eldoret CBD",
+      "insuranceAccepted": [
+        "SHIF",
+        "Britam",
+        "APA"
+      ],
+      "contact": {
+        "phone": "0725123456",
+        "email": "info@eldoretmedicare.com"
+      },
+      "address": {
+        "street": "Oloo Street",
+        "city": "Eldoret"
+      },
+      "services": [
+        {
+          "name": "General Checkup",
+          "price": "KSh 2,000",
+          "duration": "30 min"
+        },
+        {
+          "name": "Malaria Test",
+          "price": "KSh 800",
+          "duration": "15 min"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "6",
+      "name": "Kisumu Eye Hospital",
+      "specialty": "Ophthalmology",
+      "description": "Specialized eye care in Nyanza region",
+      "insuranceAccepted": [
+        "SHIF",
+        "Jubilee"
+      ],
+      "contact": {
+        "phone": "0726123456",
+        "email": "info@kisumueye.org"
+      },
+      "address": {
+        "street": "Oginga Odinga Road",
+        "city": "Kisumu"
+      },
+      "services": [
+        {
+          "name": "Eye Examination",
+          "price": "KSh 2,500",
+          "duration": "45 min"
+        },
+        {
+          "name": "Cataract Screening",
+          "price": "KSh 3,500",
+          "duration": "1 hour"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "7",
+      "name": "Thika Orthopaedic Centre",
+      "specialty": "Orthopedics",
+      "description": "Bone and joint specialists",
+      "insuranceAccepted": [
+        "SHIF",
+        "AAR",
+        "Britam"
+      ],
+      "contact": {
+        "phone": "0727123456",
+        "email": "info@thikaortho.co.ke"
+      },
+      "address": {
+        "street": "General Kago Road",
+        "city": "Thika"
+      },
+      "services": [
+        {
+          "name": "Fracture Treatment",
+          "price": "KSh 8,000",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Physiotherapy",
+          "price": "KSh 2,500",
+          "duration": "45 min"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "8",
+      "name": "Nakuru Fertility Clinic",
+      "specialty": "Fertility",
+      "description": "IVF and reproductive health specialists",
+      "insuranceAccepted": [
+        "SHIF",
+        "Jubilee"
+      ],
+      "contact": {
+        "phone": "0728123456",
+        "email": "info@nakurufertility.com"
+      },
+      "address": {
+        "street": "Kenyatta Avenue",
+        "city": "Nakuru"
+      },
+      "services": [
+        {
+          "name": "Fertility Consultation",
+          "price": "KSh 5,000",
+          "duration": "1 hour"
+        },
+        {
+          "name": "IVF Assessment",
+          "price": "KSh 15,000",
+          "duration": "2 hours"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "9",
+      "name": "Kakamega Pediatric Centre",
+      "specialty": "Pediatrics",
+      "description": "Child healthcare specialists",
+      "insuranceAccepted": [
+        "SHIF"
+      ],
+      "contact": {
+        "phone": "0729123456",
+        "email": "info@kakamegapeds.org"
+      },
+      "address": {
+        "street": "Mudiri Road",
+        "city": "Kakamega"
+      },
+      "services": [
+        {
+          "name": "Child Vaccination",
+          "price": "KSh 1,200",
+          "duration": "30 min"
+        },
+        {
+          "name": "Growth Monitoring",
+          "price": "KSh 1,000",
+          "duration": "30 min"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "10",
+      "name": "Meru Diabetes Clinic",
+      "specialty": "Endocrinology",
+      "description": "Diabetes management specialists",
+      "insuranceAccepted": [
+        "SHIF",
+        "AAR"
+      ],
+      "contact": {
+        "phone": "0730123456",
+        "email": "info@merudiabetes.co.ke"
+      },
+      "address": {
+        "street": "Kaaga Road",
+        "city": "Meru"
+      },
+      "services": [
+        {
+          "name": "Diabetes Screening",
+          "price": "KSh 2,000",
+          "duration": "45 min"
+        },
+        {
+          "name": "Nutrition Counseling",
+          "price": "KSh 2,500",
+          "duration": "1 hour"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "11",
+      "name": "Mombasa ENT Centre",
+      "specialty": "ENT",
+      "description": "Ear, Nose and Throat specialists",
+      "insuranceAccepted": [
+        "SHIF",
+        "Jubilee"
+      ],
+      "contact": {
+        "phone": "0731123456",
+        "email": "info@mombasaent.com"
+      },
+      "address": {
+        "street": "Nyerere Avenue",
+        "city": "Mombasa"
+      },
+      "services": [
+        {
+          "name": "Hearing Test",
+          "price": "KSh 3,500",
+          "duration": "45 min"
+        },
+        {
+          "name": "Tonsil Examination",
+          "price": "KSh 2,500",
+          "duration": "30 min"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "12",
+      "name": "Nyeri Physiotherapy Centre",
+      "specialty": "Physiotherapy",
+      "description": "Rehabilitation and pain management",
+      "insuranceAccepted": [
+        "SHIF",
+        "Britam"
+      ],
+      "contact": {
+        "phone": "0732123456",
+        "email": "info@nyeriphysio.co.ke"
+      },
+      "address": {
+        "street": "Kimathi Way",
+        "city": "Nyeri"
+      },
+      "services": [
+        {
+          "name": "Back Pain Therapy",
+          "price": "KSh 3,000",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Post-Surgery Rehab",
+          "price": "KSh 4,000",
+          "duration": "1 hour"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "13",
+      "name": "Kitui Maternity Hospital",
+      "specialty": "Obstetrics",
+      "description": "Specialized maternity services",
+      "insuranceAccepted": [
+        "SHIF"
+      ],
+      "contact": {
+        "phone": "0733123456",
+        "email": "info@kituimaternity.go.ke"
+      },
+      "address": {
+        "street": "KWS Road",
+        "city": "Kitui"
+      },
+      "services": [
+        {
+          "name": "Antenatal Care",
+          "price": "KSh 1,500",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Delivery Package",
+          "price": "KSh 15,000",
+          "duration": "Overnight"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "14",
+      "name": "Machakos Cancer Centre",
+      "specialty": "Oncology",
+      "description": "Cancer screening and treatment",
+      "insuranceAccepted": [
+        "SHIF",
+        "AAR"
+      ],
+      "contact": {
+        "phone": "0734123456",
+        "email": "info@machakoscancer.org"
+      },
+      "address": {
+        "street": "Hospital Road",
+        "city": "Machakos"
+      },
+      "services": [
+        {
+          "name": "Cancer Screening",
+          "price": "KSh 5,000",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Chemotherapy",
+          "price": "KSh 25,000",
+          "duration": "3 hours"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "15",
+      "name": "Garissa Medical Centre",
+      "specialty": "General Practice",
+      "description": "Northern Kenya healthcare services",
+      "insuranceAccepted": [
+        "SHIF"
+      ],
+      "contact": {
+        "phone": "0735123456",
+        "email": "info@garissamedical.com"
+      },
+      "address": {
+        "street": "Kismayu Road",
+        "city": "Garissa"
+      },
+      "services": [
+        {
+          "name": "General Consultation",
+          "price": "KSh 1,500",
+          "duration": "30 min"
+        },
+        {
+          "name": "Malaria Treatment",
+          "price": "KSh 2,500",
+          "duration": "1 hour"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "16",
+      "name": "Naivasha Skin Clinic",
+      "specialty": "Dermatology",
+      "description": "Skin and hair specialists",
+      "insuranceAccepted": [
+        "SHIF",
+        "Jubilee"
+      ],
+      "contact": {
+        "phone": "0736123456",
+        "email": "info@naivashaskin.co.ke"
+      },
+      "address": {
+        "street": "Moi South Lake Road",
+        "city": "Naivasha"
+      },
+      "services": [
+        {
+          "name": "Acne Treatment",
+          "price": "KSh 4,000",
+          "duration": "45 min"
+        },
+        {
+          "name": "Skin Allergy Test",
+          "price": "KSh 3,500",
+          "duration": "1 hour"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "17",
+      "name": "Bungoma Mental Health Centre",
+      "specialty": "Psychiatry",
+      "description": "Mental health and counseling services",
+      "insuranceAccepted": [
+        "SHIF"
+      ],
+      "contact": {
+        "phone": "0737123456",
+        "email": "info@bungomamentalhealth.org"
+      },
+      "address": {
+        "street": "Kanduyi Road",
+        "city": "Bungoma"
+      },
+      "services": [
+        {
+          "name": "Psychiatric Evaluation",
+          "price": "KSh 3,500",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Counseling Session",
+          "price": "KSh 2,500",
+          "duration": "1 hour"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "18",
+      "name": "Malindi Wellness Spa",
+      "specialty": "Wellness",
+      "description": "Holistic health and relaxation",
+      "insuranceAccepted": [
+        "Jubilee",
+        "AAR"
+      ],
+      "contact": {
+        "phone": "0738123456",
+        "email": "info@malindiwellness.com"
+      },
+      "address": {
+        "street": "Beach Road",
+        "city": "Malindi"
+      },
+      "services": [
+        {
+          "name": "Massage Therapy",
+          "price": "KSh 4,500",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Aromatherapy",
+          "price": "KSh 3,500",
+          "duration": "45 min"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "19",
+      "name": "Kericho Eye Centre",
+      "specialty": "Ophthalmology",
+      "description": "Tea zone eye specialists",
+      "insuranceAccepted": [
+        "SHIF",
+        "Britam"
+      ],
+      "contact": {
+        "phone": "0739123456",
+        "email": "info@kerichoeye.org"
+      },
+      "address": {
+        "street": "Kericho-Kisumu Road",
+        "city": "Kericho"
+      },
+      "services": [
+        {
+          "name": "Glaucoma Test",
+          "price": "KSh 3,000",
+          "duration": "1 hour"
+        },
+        {
+          "name": "Spectacle Prescription",
+          "price": "KSh 2,500",
+          "duration": "45 min"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "20",
+      "name": "Isiolo Medical Camp",
+      "specialty": "General Practice",
+      "description": "Northern frontier medical services",
+      "insuranceAccepted": [
+        "SHIF"
+      ],
+      "contact": {
+        "phone": "0740123456",
+        "email": "info@isiolomedical.go.ke"
+      },
+      "address": {
+        "street": "Marsabit Road",
+        "city": "Isiolo"
+      },
+      "services": [
+        {
+          "name": "General Checkup",
+          "price": "KSh 1,000",
+          "duration": "30 min"
+        },
+        {
+          "name": "Vaccination",
+          "price": "KSh 500",
+          "duration": "15 min"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": "d0d3",
+      "name": "Kelsey Watson",
+      "specialty": "A in mollitia ut et ",
+      "description": "Laborum Aut asperio",
+      "insuranceAccepted": [],
+      "contact": {
+        "phone": "+1 (871) 422-6346",
+        "email": "vedopil@mailinator.com"
+      },
+      "address": {
+        "street": "Dolor sed ab quos si",
+        "city": "Natus mollitia est q"
+      },
+      "services": [
+        {
+          "name": "Dorian Sanchez",
+          "price": "214",
+          "duration": "Ea praesentium cupid"
+        }
+      ],
+      "reviews": []
+    }
+  ]
+}

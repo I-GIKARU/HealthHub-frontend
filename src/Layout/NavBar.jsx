@@ -10,7 +10,6 @@ const NavBar = () => {
       <div className="container mx-auto px-4 py-3">
         {/* Main Navigation Bar */}
         <div className="flex items-center justify-between">
-          {/* Logo & Branding */}
           <Link
             to="/"
             className="flex items-center space-x-3 text-white hover:scale-105 transform transition-transform duration-300"
@@ -19,12 +18,10 @@ const NavBar = () => {
             <span className="text-xl md:text-2xl font-bold tracking-wide">HealthHub</span>
           </Link>
 
-          {/* Centered Tagline - Visible on desktop */}
           <span className="hidden md:block absolute left-1/2 transform -translate-x-1/2 text-lg font-semibold text-white drop-shadow-md tracking-wide">
             Your healthcare connection 💙
           </span>
 
-          {/* Navigation Links - Desktop */}
           <div className="hidden md:flex items-center space-x-6 text-white font-medium">
             <Link
               to="/clinics"
@@ -60,7 +57,6 @@ const NavBar = () => {
         {/* Mobile Menu */}
         {isOpen && (
           <div className="md:hidden bg-blue-700 mt-2 rounded-lg shadow-lg text-center">
-            {/* Centered Tagline in Mobile */}
             <div className="px-3 py-4 text-white text-lg font-semibold">
               Your healthcare connection 💙
             </div>

@@ -1,12 +1,13 @@
 import { useState, useEffect } from 'react';
 import { toast } from 'react-toastify';
 
+const API_URL = 'https://healthhub-backend-6w0u.onrender.com/clinics';
+
 const useClinics = () => {
   const [clinics, setClinics] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const API_URL = 'https://healthhub-backend-6w0u.onrender.com/clinics';
 
   useEffect(() => {
     const fetchClinics = async () => {

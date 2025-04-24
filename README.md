@@ -1,12 +1,46 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+https://health-hub-frontend-orpin.vercel.app/
+# HealthHub App
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A platform connecting patients with local healthcare providers.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Search clinics by specialty or insurance acceptance
+- View provider profiles with services, pricing, and patient reviews
+- Rate and review care experiences
+- Admin portal to manage clinic profiles
+
+
+## Application Screenshots
+
+| View | Screenshot |
+|------|------------|
+<img src="public/images/Screenshot%20from%202025-04-24%2023-04-38.png" width="300"> 
+<img src="public/images/Screenshot%20from%202025-04-24%2023-04-45.png" width="300"> 
+<img src="public/images/Screenshot%20from%202025-04-24%2023-04-51.png" width="300"> 
+<img src="public/images/Screenshot%20from%202025-04-24%2023-05-02.png" width="300"> 
+<img src="public/images/Screenshot%20from%202025-04-24%2023-05-09.png" width="300"> 
+<img src="public/images/Screenshot%20from%202025-04-24%2023-05-14.png" width="300"> 
+
+## Technologies Used
+
+- React
+- Vite
+- Tailwind CSS
+- React Router
+- JSON Server (for mock backend)
+- React Icons
+- SweetAlert (for notifications)
+
+## Installation
+
+### Frontend Setup
+
+1. Navigate to the frontend directory after cloning:
+   cd frontend
+   npm install
+   npm run dev
+### Backend setup
+json-server --watch db.json
