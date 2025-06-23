@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { toast } from 'react-toastify';
 
-const API_URL = 'https://healthhub-backend-6w0u.onrender.com/clinics';
+const API_URL = 'https://health-hub-4x21.onrender.com/clinics';
 
 const useClinics = () => {
   const [clinics, setClinics] = useState([]);
